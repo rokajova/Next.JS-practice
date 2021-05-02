@@ -8,7 +8,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Home</h1>
       <h1>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cum
@@ -25,7 +24,6 @@ export default function Home() {
       <Link href="/people">
         <a>See people listing</a>
       </Link>
-      <Footer />
     </div>
   );
 }

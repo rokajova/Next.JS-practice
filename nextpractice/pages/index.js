@@ -8,21 +8,21 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <h1>
+      <h1 className={styles.title}>Home</h1>
+      <p className={styles.text}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cum
         deleniti totam. Facere dolores commodi voluptate nostrum. Obcaecati
         consectetur fugit nobis voluptates, illo ipsam atque delectus, velit
         corporis, ducimus dolorum?
-      </h1>
-      <h1>
+      </p>
+      <p className={styles.text}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cum
         deleniti totam. Facere dolores commodi voluptate nostrum. Obcaecati
         consectetur fugit nobis voluptates, illo ipsam atque delectus, velit
         corporis, ducimus dolorum?
-      </h1>
+      </p>
       <Link href="/people">
-        <a>See people listing</a>
+        <a className={styles.btn}>See people listing</a>
       </Link>
     </div>
   );

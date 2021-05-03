@@ -7,6 +7,3 @@ const Test = () => {
 };
 
 export default Test;
-<div>
-  <h1>Test</h1>
-</div>;
